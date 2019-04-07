@@ -47,22 +47,22 @@ class GUI(Thread):
         self.mainMessage = Label(self.frameMiddleTop,
                                  background="black", 
                                  fg="white", 
-                                 font=("Helvetica", (self.w/self.h)*100))
+                                 font=("Helvetica", (self.w/self.h)*50))
         
         self.time = Label(self.frameBottomLeft, 
                           background="black", 
                           fg="white", 
-                          font=("Helvetica", (self.w/self.h)*100))
+                          font=("Helvetica", (self.w/self.h)*50))
                           
         self.date = Label(self.frameBottomMiddle, 
                           background="black", 
                           fg="white", 
-                          font=("Helvetica", (self.w/self.h)*100))
+                          font=("Helvetica", (self.w/self.h)*50))
         
         self.weatherTemp = Label(self.frameLeftTop,
                                  background="black", 
                                  fg="white", 
-                                 font=("Helvetica", (self.w/self.h)*100))
+                                 font=("Helvetica", (self.w/self.h)*50))
         
         """
         self.location = Label(frameLeftTop,
@@ -76,7 +76,7 @@ class GUI(Thread):
         self.updateTime = Label(self.frameRightTop, 
                                 background="black", 
                                 fg="white", 
-                                font=("Helvetica", (self.w/self.h)*20))
+                                font=("Helvetica", (self.w/self.h)*10))
         
         # Start of the tread (when object is initialized)
         Thread.__init__(self)
