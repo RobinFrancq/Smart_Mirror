@@ -92,6 +92,10 @@ class WeatherData:
                     self.imageName = "img/scattered_clouds.gif"
                 elif (self.preciseDescription == "broken clouds" or self.preciseDescription == "overcast clouds"):
                     self.imageName = "img/broken_clouds.gif"
+            elif (self.desciption == "Mist"):
+                self.imageName = "img/broken_clouds.gif"
+            else:
+                self.imageName = "img/broken_clouds.gif"
                 
             self.cloudPercentage = data.get("clouds").get("all")
             
